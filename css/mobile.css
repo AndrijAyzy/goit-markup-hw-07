@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 426px;
+    }
+
+    .mob-menu-phone {
+        font-size: 36px;
+    }
+        
+    .mob-menu-soc-list {
+        width: 328px;
+    }
+
+    .portfolio-example {
+        width: 396px;
+        }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-descr {
+        margin-bottom: 72px;
+    }
+
+    .footer-media {
+        margin-bottom: 72px;
+    }
+}
