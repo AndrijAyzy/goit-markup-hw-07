@@ -34,6 +34,10 @@ address {
     padding: 188px 331px;
 }
 
+.preferences-item-title  {
+    font-weight: 500;
+}   
+
 .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
