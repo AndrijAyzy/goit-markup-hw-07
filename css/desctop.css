@@ -147,3 +147,25 @@ address {
     flex-basis: calc((100% - 48px) / 3);
 }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .footer-descr-media-wrapper {
+        margin-bottom: 72px;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url(../images/bg-hero-tab.jpg);
+    }
+    
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+              rgba(46, 47, 66, 0.7)),
+              url(../images/bg-hero-tab-2x.jpg);
+        }
+    }
